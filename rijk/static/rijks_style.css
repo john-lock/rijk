@@ -1,0 +1,21 @@
+body {
+	background-image: url('ams.png');
+}
+
+#main-container {
+	padding-top: 50px;
+	align-items: center;
+
+}
+.card {
+	margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+#cardbod{
+	text-align: center;
+}
+#gallery {
+	align-items: center;
+}
