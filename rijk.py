@@ -5,7 +5,7 @@ import os
 from random import randint
 
 app = Flask(__name__)
-APIKEY = os.environ['APIKEY']
+APIKEY = os.environ['apikey']
 
 
 @app.route('/', methods=['GET'])
