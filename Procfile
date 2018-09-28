@@ -1,1 +1,1 @@
-web: gunicorn rijks:app
+web: gunicorn rijk:app
