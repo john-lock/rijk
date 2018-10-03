@@ -11,9 +11,9 @@ APIKEY = os.environ['apikey']
 @app.route('/', methods=['GET'])
 def random():
     # Api sets cap at 10000
-    P = str(randint(1, 10000))
+    N = str(randint(1, 10000))
     r = requests.get(
-        "https://www.rijksmuseum.nl/api/en/collection/?key=" + APIKEY + "&format=json&imgonly=True&ps=1&p=" + P
+        "https://www.rijksmuseum.nl/api/en/collection/?key=" + APIKEY + "&format=json&imgonly=True&ps=1&p=" + N
     )
     rjson = json.loads(r.text)
 

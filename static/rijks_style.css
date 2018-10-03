@@ -1,7 +1,6 @@
 body {
 	background-image: url('ams.png');
 }
-
 #main-container {
 	padding-top: 50px;
 	align-items: center;
@@ -18,4 +17,8 @@ body {
 }
 #gallery {
 	align-items: center;
+}
+#gh {
+	color: #4a4a4a;
+	float: right;
 }
